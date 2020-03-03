@@ -1,7 +1,7 @@
 package application;
 
 public class Nyckel {
-	Anställd anställd; //behövs dubbelkollpling?
+	Anstalld anstalld; //behï¿½vs dubbelkollpling?
 	private String nyckelID;
 	
 	public String getNyckelID() {
