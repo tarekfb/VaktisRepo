@@ -1,6 +1,5 @@
 package application;
 
 public class Anstalld {
-	
-	Nyckel nyckel;
+  Nyckel nyckel;
 }
