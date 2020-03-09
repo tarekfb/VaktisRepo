@@ -1,5 +1,5 @@
 package application;
 
-public class Anst‰lld {
+public class Anst√§lld {
   Nyckel nyckel;
 }
