@@ -12,6 +12,7 @@ import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.value.ObservableValue;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
@@ -20,12 +21,12 @@ import javafx.util.Callback;
 
 public class JanitorController implements Initializable {
 	
-	/*
+	
 	@FXML
 	private TableView<String> tableViewKeys;
 	@FXML
     private TableColumn<String, String> columnID, columnOwner, columnStatus, columnType, columnOffice;
-	*/
+	
 	
 	 @FXML
 	 TableView<String[]> tv = new TableView();
@@ -38,6 +39,8 @@ public class JanitorController implements Initializable {
 	@Override
 	public void initialize(URL arg0, ResourceBundle arg1) {
 		
+		tableViewKeys.setPlaceholder(new Label("Inga nycklar hittades..."));
+		
 	/*
 	List<String> mockListID = new ArrayList<String>();
 	List<String> mockListOwner = new ArrayList<String>();
@@ -47,7 +50,7 @@ public class JanitorController implements Initializable {
 
 	String id1 = "N0001";
 	String id2 = "N0002";
-	*/
+	
 	
     // Create the data structure
     String[][] data = new String[5][2];
@@ -87,7 +90,7 @@ public class JanitorController implements Initializable {
 
     // Add Data
     tv.getItems().addAll(Arrays.asList(data));
-	
+	*/
 	
 	
 	}
