@@ -16,10 +16,10 @@
             <content>
               <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                      <children>
-                        <TableView layoutX="99.0" layoutY="45.0" prefHeight="200.0" prefWidth="402.0">
+                        <TableView fx:id="tv" layoutX="99.0" layoutY="45.0" prefHeight="200.0" prefWidth="402.0">
                           <columns>
-                            <TableColumn prefWidth="75.0" text="Nyckel-ID" />
-                            <TableColumn prefWidth="75.0" text="Tillhör" />
+                            <TableColumn fx:id="idColumn" prefWidth="75.0" text="Nyckel-ID" />
+                            <TableColumn fx:id="ownerColumn" prefWidth="75.0" text="Tillhör" />
                               <TableColumn prefWidth="75.0" text="Inne/ute" />
                               <TableColumn prefWidth="75.0" text="Nyckeltyp" />
                               <TableColumn prefWidth="75.0" text="Kontor" />
