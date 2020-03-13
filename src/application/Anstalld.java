@@ -1,5 +1,5 @@
 package application;
 
-public class Anställd {
+public class Anstalld {
   Nyckel nyckel;
 }
